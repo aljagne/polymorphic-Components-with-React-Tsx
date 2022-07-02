@@ -10,7 +10,7 @@ export const Text = <C extends React.ElementType>({
   children,
   ...restProps
 }: TextProps<C>) => {
-  const Componet = as || "span";
+  const Component = as || "span";
 
-  return <Componet {...restProps}>{children}</Componet>;
+  return <Component {...restProps}>{children}</Component>;
 };
